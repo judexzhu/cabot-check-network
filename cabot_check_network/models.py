@@ -9,7 +9,7 @@ class NetworkStatusCheck(StatusCheck):
     check_name = 'network'
     edit_url_name = 'update-network-check'
     duplicate_url_name = 'duplicate-network-check'
-    icon_class = 'glyphicon-transfer'
+    icon_class = 'glyphicon-globe'
     host = models.TextField(
         help_text='Host to check.',
     )
